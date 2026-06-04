@@ -1,0 +1,78 @@
+# 내부 파일
+.claude
+.models
+.docs
+.env
+.agent
+
+# Git 추적용 빈 디렉토리 마커 (로컬에만 유지)
+.gitkeep
+
+# 설계 문서 (대용량 PDF 및 내부 문서)
+docs/
+
+# 학습된 모델 파일
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+*.bin
+ml/**/models/
+ml/**/artifacts/
+ml/**/outputs/
+
+# MLflow / 실험 추적
+mlruns/
+mlartifacts/
+
+# 데이터셋 (대용량 원본 데이터)
+dataset/
+data/
+*.parquet
+*.csv
+*.feather
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 환경 변수
+.env
+.env.*
+!.env.example
+
+# 로그 / 임시 파일
+*.log
+*.tmp
+*.cache
+logs/
+tmp/
